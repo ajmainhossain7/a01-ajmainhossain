@@ -168,7 +168,8 @@ nav {
     font-weight: 400;
 }
 #brain-section {
-    margin: 120px;
+    max-width: 1360px;
+    margin: 120px auto;
 }
 
 #brain-section .brain-container {
@@ -210,3 +211,34 @@ nav {
 .check-items img {
     margin-right: 6px;
 }
+#early-access {
+    max-width: 1360px;
+    max-height: 384px;
+    margin: 0px auto;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+#early-access .early-container {
+    text-align: center;
+    padding: 80px;
+}
+.early-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early-container p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.end-btn {
+    margin-bottom: 16px;
+    box-shadow: 0px 10px 20px 0px #00000034;
+}
+
+
+
