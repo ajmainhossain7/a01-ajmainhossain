@@ -7,10 +7,14 @@
     border: none;
     border-radius: 5px;
     padding: 12px 16px;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
+    justify-content: center;
+}
+.btn i {
+    margin-left: 8px;
 }
 .btn-2 {
     background-color: transparent;
@@ -21,14 +25,19 @@
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    margin-left: 16px;
-
+    margin-left: 16px; 
 }
+.btn-2 i {
+    margin-right: 8px;
+}
+
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-style: normal; */
 }
+
+/* main-section */
 
 nav {
     display: flex;
@@ -238,6 +247,47 @@ nav {
 .end-btn {
     margin-bottom: 16px;
     box-shadow: 0px 10px 20px 0px #00000034;
+}
+footer {
+    background-color: #001931;
+    margin-top: 120px;
+}
+footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    align-items: center;
+    margin: 0px auto;
+    padding: 120px 0px 80px 0px;
+}
+.footer-top .footer-social p {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 28px;
+   color: #FFFFFF;
+   margin-bottom: 16px;
+}
+.footer-social .social-icons a {
+  color: #000000;
+  margin-right: 16px;
+  font-size: 16px;
+  /* border: solid red; */
+  border-radius: 100%;
+  background-color: #FFFFFF;
+}
+footer hr {
+    opacity: 20%;
+    max-width: 1360px;
+    margin: 0px auto;
+}
+footer .footer-bottom {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    line-height: 24px;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+
 }
 
 
