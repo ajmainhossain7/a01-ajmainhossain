@@ -167,4 +167,46 @@ nav {
     font-size: 16px;
     font-weight: 400;
 }
+#brain-section {
+    margin: 120px;
+}
 
+#brain-section .brain-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 60px;
+}
+.text-section .text-title .solution {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.text-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.text-title p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.check-section .check-items {
+    list-style: none;   
+}
+.check-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+}
+.check-items img {
+    margin-right: 6px;
+}
